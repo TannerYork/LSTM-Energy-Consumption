@@ -24,10 +24,18 @@ This paper provides a substantial review on the four main ML approaches includin
 This is a Pytorch implementation for the paper Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks mentioned above. This gives a good comparison for the model I will be building during this project.
 
 ## Project Plan
-|     Step      |     Goal      |
-| ------------- | ------------- |
-|   Step #1     | Understand better what [GNN](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3) are and how they can be implemented in a [familar framework](https://arxiv.org/pdf/2006.12138.pdf) |
-|   Step #2     | Get familiar with PyTorch through the [Getting Started Guide](https://pytorch.org/tutorials/beginner/basics/intro.html)  |
-|   Step #3     | Start building the GNN based on the papers above |
-|   Step #4     | Finish building the GNN and work on evaluating and comparing to other [models](https://github.com/nnzhan/MTGNN) |
-|   Step #5     | Write up the comparison of my optimized model vs. other models |
+|     Step      |     Goal      |    Status     |
+| ------------- | ------------- | :-----------: |
+|   Step #1     | Learn what [GNN](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3) are and how they are implemented in [Tensorflow](https://arxiv.org/pdf/2006.12138.pdf) | ✅ |
+|   Step #2     | Explore and preprocess the data  | |
+|   Step #3     | Start building the GNN based on the papers above | |
+|   Step #4     | Finish building the GNN and work on evaluating and comparing to other [models](https://github.com/nnzhan/MTGNN) | |
+|   Step #5     | Write up the comparison of my optimized model vs. other models | |
+
+|    Strech     |     Goal      |    Status     |
+| ------------- | ------------- | :-----------: |
+|  Strech #1    | Get familiar with PyTorch through the [Getting Started Guide](https://pytorch.org/tutorials/beginner/basics/intro.html) | |
+|  Strech #2    | Build and train GNN models based on the problem above | |
+|  Strech #3    | Benchmark those models with the ones created in Tensorflow | |
+|  Strech #4    | Write up a comparision between them | |
+
