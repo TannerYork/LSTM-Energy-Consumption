@@ -26,16 +26,9 @@ This is a Pytorch implementation for the paper Connecting the Dots: Multivariate
 ## Project Plan
 |     Step      |     Goal      |    Status     |
 | ------------- | ------------- | :-----------: |
-|   Step #1     | Learn what [GNN](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3) are and how they are implemented in [Tensorflow](https://arxiv.org/pdf/2006.12138.pdf) | ✅ |
-|   Step #2     | Explore and preprocess the data  | |
-|   Step #3     | Start building the GNN based on the papers above | |
-|   Step #4     | Finish building the GNN and work on evaluating and comparing to other [models](https://github.com/nnzhan/MTGNN) | |
-|   Step #5     | Write up the comparison of my optimized model vs. other models | |
-
-|    Strech     |     Goal      |    Status     |
-| ------------- | ------------- | :-----------: |
-|  Strech #1    | Get familiar with PyTorch through the [Getting Started Guide](https://pytorch.org/tutorials/beginner/basics/intro.html) | |
-|  Strech #2    | Build and train GNN models based on the problem above | |
-|  Strech #3    | Benchmark those models with the ones created in Tensorflow | |
-|  Strech #4    | Write up a comparision between them | |
+|   Step #1     | Learn what [GNN](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3) | ✅ |
+|   Step #2     | Explore and preprocess the data  | ✅ |
+|   Step #3     | Use [PyTorch Geometric Temporal](https://pytorch-geometric-temporal.readthedocs.io/en/latest/index.html) to create a MTGNN model | |
+|   Step #4     | Build baseline models to compare with MTGNN model | |
+|   Step #5     | Write up the comparison of the MTGNN model vs. the other baseline models | |
 
