@@ -4,7 +4,7 @@ This is a PyTorch implementation of a Graph Neural Net (GNN) for multivariable t
 ## Project Scope
 This project will involve...
 * learning Pytorch for model development and GNN for multivariable time-series forecasting
-* learning GNN for multivariable time-series forecasting
+* getting a better understanding of what Graph Neural Networks (GNN) are and how their being used for time-series forecasting.
 * the energy consumption data from the multivariable time-series data frond [here](https://github.com/laiguokun/multivariate-time-series-data)
 
 ## Project Research
