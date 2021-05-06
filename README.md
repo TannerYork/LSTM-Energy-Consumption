@@ -1,4 +1,4 @@
-# MTGNN-Energy-Consumption
+# Time Series Forecasting Energy Consumption
 This is a PyTorch implementation of a Graph Neural Net (GNN) for multivariable time-series forecasting for energy consumption and, as an eventual addition, solar energy production.
 
 ## Project Scope
