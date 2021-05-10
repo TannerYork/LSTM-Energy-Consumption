@@ -28,7 +28,7 @@ This is a Pytorch implementation for the paper Connecting the Dots: Multivariate
 | ------------- | ------------- | :-----------: |
 |   Step #1     | Learn what [GNN](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3) | ✅ |
 |   Step #2     | Explore and preprocess the data  | ✅ |
-|   Step #3     | Use [PyTorch Geometric Temporal](https://pytorch-geometric-temporal.readthedocs.io/en/latest/index.html) to create a MTGNN model | |
-|   Step #4     | Build baseline models to compare with MTGNN model | |
+|   Step #3     | Build LSTM model to compare with MTGNN model | ✅ |
+|   Step #4     | Use [PyTorch Geometric Temporal](https://pytorch-geometric-temporal.readthedocs.io/en/latest/index.html) to create a MTGNN model | |
 |   Step #5     | Write up the comparison of the MTGNN model vs. the other baseline models | |
 
