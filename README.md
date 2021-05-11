@@ -1,10 +1,10 @@
-# Time Series Forecasting Energy Consumption
-This is a PyTorch implementation of a Graph Neural Net (GNN) for multivariable time-series forecasting for energy consumption and, as an eventual addition, solar energy production.
+# LSTM Energy Consumption
+This project was originally meant for recreating the MTGNN model for time series forecasting but due to time constraints and deadlines, it's changed to exploring the LSTM model instead.
 
 ## Project Scope
 This project will involve...
-* learning Pytorch for model development and GNN for multivariable time-series forecasting
-* getting a better understanding of what Graph Neural Networks (GNN) are and how their being used for time-series forecasting.
+* understanding both multi and single-step time series analysis/forecasting.
+* creating and optimizing a Long-Short Term Memory (LSTM) model using Keras.
 * the energy consumption data from the multivariable time-series data frond [here](https://github.com/laiguokun/multivariate-time-series-data)
 
 ## Project Research
@@ -24,11 +24,9 @@ This paper provides a substantial review on the four main ML approaches includin
 This is a Pytorch implementation for the paper Connecting the Dots: Multivariate Time Series Forecasting with Graph Neural Networks mentioned above. This gives a good comparison for the model I will be building during this project.
 
 ## Project Plan
-|     Step      |     Goal      |    Status     |
+|   Milestone   |     Goal      |    Status     |
 | ------------- | ------------- | :-----------: |
-|   Step #1     | Learn what [GNN](https://towardsdatascience.com/a-gentle-introduction-to-graph-neural-network-basics-deepwalk-and-graphsage-db5d540d50b3) | ✅ |
-|   Step #2     | Explore and preprocess the data  | ✅ |
-|   Step #3     | Build LSTM model to compare with MTGNN model | ✅ |
-|   Step #4     | Use [PyTorch Geometric Temporal](https://pytorch-geometric-temporal.readthedocs.io/en/latest/index.html) to create a MTGNN model | |
-|   Step #5     | Write up the comparison of the MTGNN model vs. the other baseline models | |
-
+|  Milestone #1 | Research time series forecasting and LSTM model | ✅ |
+|  Milestone #2 | Explore, visualize, and preprocess the data  | ✅ |
+|  Milestone #3 | Build a variety of LSTM models for comparison and evaluation  | ✅ |
+|  Milestone #5 | Tune model hyperparameters to create an optimized model | |
